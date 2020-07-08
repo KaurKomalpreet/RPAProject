@@ -1,0 +1,61 @@
+{
+  "name": "test1",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[20.6.1-preview]",
+    "UiPath.Testing.Activities": "[1.1.1-preview]",
+    "UiPath.UIAutomation.Activities": "[20.6.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.6.0.0",
+  "projectVersion": "1.0.47721185",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "bb8448ca-78a4-421d-afb1-bf2b501fd458",
+        "fileName": "url.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2b3b0270-9d59-4622-95f9-0955b3103b80",
+        "fileName": "jjj\\url.xaml"
+      }
+    ]
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "url.xaml",
+      "uniqueId": "bb8448ca-78a4-421d-afb1-bf2b501fd458",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "jjj\\url.xaml",
+      "uniqueId": "2b3b0270-9d59-4622-95f9-0955b3103b80",
+      "input": [],
+      "output": []
+    }
+  ]
+}
